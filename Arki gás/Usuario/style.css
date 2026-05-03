@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#inicio{
+    background-color: #3838da;
+    padding: 30px;
+    text-align: center;
+}
+
+#titulo{
+    color: #fff;
+    font-size: 22px;
+}
+
+/* FORMULÁRIO */
+form{
+    max-width: 500px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* TEXTOS */
+p{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* INPUTS */
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* BOTÕES */
+#Enviar,
+#Cancelar{
+    padding: 12px;
+    width: 48%;
+    border: none;
+    cursor: pointer;
+}
+
+#Enviar{
+    background-color: #3838da;
+    color: #fff;
+}
+
+#Cancelar{
+    background-color: red;
+    color: #fff;
+}
+
+/* GRUPO DE BOTÕES */
+form div{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* MOBILE */
+@media (max-width: 600px){
+    #titulo{
+        font-size: 20px;
+    }
+
+    #Enviar,
+    #Cancelar{
+        width: 100%;
+    }
+
+    form div{
+        flex-direction: column;
+    }
+}
