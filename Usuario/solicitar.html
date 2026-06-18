@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Solicitar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="inicio">
+    <h1 id="titulo">ARKI GÁS</h1>
+</div>
+
+<form action="index.php" method="post" class="form-container">
+
+    <label>Nome completo</label>
+    <input type="text" name="nome" required autofocus>
+
+    <label>Telefone</label>
+    <input type="tel" name="number_phone" required autofocus>
+
+    <label>Local de entrega</label>
+    <input type="text" name="local" required autofocus>
+
+    <label>Informações da botija</label>
+    <input type="text" name="desc" required autofocus>
+
+    <div class="btn-group">
+        <button type="submit" id="Enviar">Enviar</button>
+        <button type="button" id="Cancelar" onclick="cancelar()">Cancelar</button>
+    </div>
+
+</form>
+
+<script src="../script.js"></script>
+</body>
+</html>

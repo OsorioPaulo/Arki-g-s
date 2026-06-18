@@ -1,6 +1,6 @@
 {
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/.*", "dest": "Arki também/index.html" }
-  ]
+    "routers": [
+        {"handle": "filesystem"},
+        {"src":"/.*", "dest": "/index.html"}
+    ]
 }
